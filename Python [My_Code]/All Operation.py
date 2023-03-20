@@ -1,0 +1,10 @@
+a=float(input("Enter A Number : "))
+b=float(input("Enter Another Number : "))
+add=a+b
+sub=a-b
+mul=a*b
+div=a/b
+print(a, "+", b, "=", add)
+print(a, "-", b, "=", sub)
+print(a, "*", b, "=", mul)
+print(a, "/", b, "=", div)

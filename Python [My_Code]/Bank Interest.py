@@ -1,0 +1,9 @@
+p=float(input("PRINCIPAL AMOUNT: "));
+r=float(input("RATE: "))
+t=float(input("TIME: "))
+a= p*((1+r/100)**t)
+print("AFTER ADD INTEREST:\n= P (1 + R / 100)^ T")
+print("=", p,"(1 +",r,"/ 100)^",t)
+print("=",a)
+ci=a-p
+print("COMPOUND INTEREST:",a,"-",p,"=",ci)
